@@ -3,7 +3,7 @@
 int main(){
 
     int numero, positivo = 0, negativo = 0;
-    printf("Introduzca el primer numero: ");
+    printf("Introduzca el primer numero positivo o negativo: ");
     scanf("%d", &numero);
 
     
@@ -24,7 +24,7 @@ int main(){
         printf("La ejecucion del programa ha terminado");
         if (positivo != 0 || negativo != 0)
         {
-            printf("la summmmmmmmmmmmat")
+            printf("\n\n la suma de los numeros positivos es: %d \n y la suma de los negativos es: %d \n\n", positivo, negativo);
         }
         
         
